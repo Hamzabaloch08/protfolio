@@ -9,29 +9,78 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header{
-    border-bottom: 1px solid #E2E8F0;
-}
-
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 25px 50px;
 }
+
+.logo {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-family: myfont;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.logo>span {
+    color: aqua;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 20px;
+
+}
+
+.nav-menu>a {
+    position: relative;
+    color: rgb(150, 150, 150);
+    padding: 5px 25px;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-menu>a>li{
+    font-size: 0.85rem;
+}
+
+  
+  
+  ul.my-list li:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0px;
+    height: 2px;
+    background: aqua;
+    transition: all 0.5s ease-out;
+  }
+  
+  ul.my-list li:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
 
 .hamburger {
     display: none;
@@ -42,33 +91,17 @@ a {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bar:active {
+    background-color: blue;
 }
 
-.nav-item {
-    margin-left: 5rem;
-}
 
-.nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
-}
 
-.nav-link:hover{
-    color: #482ff7;
-}
 
-.nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
-}   
+
+
+
