@@ -48,15 +48,17 @@ nav {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-.nav-menu>a>li{
     font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
 }
 
+.nav-menu>a:hover{
+    color: aqua;
+}
   
   
-  ul.my-list li:after {
+  ul.my-list a:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -64,10 +66,10 @@ nav {
     width: 0px;
     height: 2px;
     background: aqua;
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
   }
   
-  ul.my-list li:hover:after {
+  ul.my-list a:hover:after {
     width: 100%;
     left: 0;
   }
