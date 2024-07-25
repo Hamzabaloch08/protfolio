@@ -92,7 +92,7 @@ ul.my-list a:hover:after {
 .bar {
     display: block;
     width: 25px;
-    height: 3px;
+    height: 2px;
     margin: 5px auto;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.3s ease-out;
