@@ -105,11 +105,11 @@ ul.my-list a:hover:after {
 /* main section start*/
 /* main social sec */
 
-.about-sec{     
+.home-sec {
     padding: 100px 0px;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,18 +122,18 @@ ul.my-list a:hover:after {
     padding: 0 50px;
 }
 
-.social>a{
+.social>a {
     color: rgb(170, 170, 170);
     font-size: 1.1rem;
     transition: all 0.5s linear;
     cursor: pointer;
 }
 
-.social>a:hover{
+.social>a:hover {
     color: aqua;
 }
 
-.social::after{
+.social::after {
     content: '';
     display: flex;
     justify-content: center;
@@ -150,7 +150,7 @@ ul.my-list a:hover:after {
 /* main social sec end */
 /* info sec */
 
-.info{
+.info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,25 +160,25 @@ ul.my-list a:hover:after {
     gap: 10px 0px;
 }
 
-.info>h3:first-child{
+.info>h3:first-child {
     color: aqua;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-.info>h1:nth-child(2){
+.info>h1:nth-child(2) {
     color: rgb(200, 200, 200);
     font-size: 3.6rem;
 }
 
-.info>p:nth-child(3){
+.info>p:nth-child(3) {
     color: rgb(130, 130, 130);
     font-size: 1.6rem;
     width: 60%;
     font-weight: 500;
 }
 
-.info>a>button{
+.info>a>button {
     background-color: transparent;
     color: aqua;
     border: 1px solid rgb(2, 190, 190);
@@ -191,15 +191,16 @@ ul.my-list a:hover:after {
     cursor: pointer;
 }
 
-.info>a>button:hover{
+.info>a>button:hover {
     color: black;
     background-color: aqua;
     box-shadow: 0px 10px 30px rgb(0, 221, 221);
 }
+
 /* info sec end */
 /* email sec */
 
-.email{
+.email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,19 +213,20 @@ ul.my-list a:hover:after {
     padding: 0 50px;
 }
 
-.email>h3>a{
+.email>h3>a {
     writing-mode: vertical-lr;
     color: rgb(170, 170, 170);
     font-weight: 400;
     font-size: 1rem;
     text-decoration: none;
+    transition: all 0.3s linear;
 }
 
-.email>h3>a:hover{
+.email>h3>a:hover {
     color: aqua;
 }
 
-.email::after{
+.email::after {
     content: '';
     display: flex;
     justify-content: center;
