@@ -1,6 +1,102 @@
+@media screen and (min-width: 1500px) {
+
+    .home-sec {
+        padding: 300px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* head section*/
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu>a {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        transition: all 0.3s linear;
+    }
+
+    .home-sec {
+        padding: 100px 0px;
+    }
+
+    .social {
+        height: 70vh;
+        gap: 30px 0px;
+    }
+
+    .social>a {
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .social>a:hover {
+        color: aqua;
+    }
+
+    /* main social sec end */
+    /* info sec */
+
+    .info {
+        gap: 0px 0px;
+    }
+
+    .info>h3:first-child {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .info>h1:nth-child(2) {
+        font-size: 3.2rem;
+    }
+
+    .info>p:nth-child(3) {
+        font-size: 1.3rem;
+        width: 70%;
+    }
+
+    .info>a>button {
+        padding: 18px 35px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    /* info sec end */
+    /* email sec */
+
+    .email {
+        height: 70vh;
+        gap: 30px 0px;
+    }
+
+    .email>h3>a {
+        font-size: 0.9rem;
+    }
+
+    /* email sec end */
+
+    /* about sec start */
+    .about-sec {
+        padding: 0px 0px;
+    }
+
+    .about-sec>h1 {
+        font-size: 2.8rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     /* head section */
+    .logo {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -8,12 +104,9 @@
         flex-direction: column;
         background-color: aqua;
         color: black;
-        opacity: 0.8;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .nav-menu.active {
@@ -21,23 +114,18 @@
     }
 
     .nav-menu>a {
-        color: rgb(0, 0, 0);
-        padding: 10px 0px;
+        color: black;
+        padding: 15px 0px;
         font-size: 1rem;
         letter-spacing: 1px;
     }
 
-    .nav-menu>a:hover{
+    .nav-menu>a:hover {
         color: black;
     }
 
     ul.my-list a:after {
         display: none;
-      }
-      
-
-    .nav-item {
-        margin: 2.5rem 0;
     }
 
     .hamburger {
@@ -60,8 +148,61 @@
     /* head section end  */
     /* main section */
 
-    .social{
+    .home-sec {
+        padding: 180px 0px;
+    }
+    
+    .social {
         display: none;
     }
+    
+    /* main social sec end */
+    /* info sec */
+    
+    .info {
+        padding: 0px 0px;
+        gap: 0px 0px;
+    }
+    
+    .info>h3:first-child {
+        font-size: 1.3rem;
+        font-weight: 1px;
+        font-weight: 400;
+    }
+    
+    .info>h1:nth-child(2) {
+        font-size: 3rem;
+    }
+    
+    .info>p:nth-child(3) {
+        font-size: 1.4rem;
+        width: 90%;
+        font-weight: 500;
+    }
+    
+    .info>a>button {
+        padding: 18px 60px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        transition: 0s;
+    }
+    
+    .info>a>button:hover {
+        color: aqua;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px;
+    }
 
+    .info>a>button:active {
+        padding: 16px 58px;
+    }
+    
+    /* info sec end */
+    /* email sec */
+    
+    .email {
+        display: none;
+    }
 }
