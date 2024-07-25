@@ -114,7 +114,7 @@ ul.my-list a:hover:after {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 65vh;
+    height: 70vh;
     width: 5%;
     gap: 30px 0px;
     position: fixed;
@@ -124,7 +124,7 @@ ul.my-list a:hover:after {
 
 .social>a {
     color: rgb(170, 170, 170);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     transition: all 0.5s linear;
     cursor: pointer;
 }
@@ -238,4 +238,17 @@ ul.my-list a:hover:after {
     width: 1px;
     position: fixed;
     bottom: 0%;
+}
+
+/* email sec end */
+
+/* about sec start */
+.about-sec{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.about-sec>h1{
+    font-size: 3rem;
+    color: rgb(200, 200, 200);
 }
