@@ -249,7 +249,7 @@
 
     .info {
         padding: 10px 40px;
-        gap: 5px 0px;
+        gap: 10px 0px;
     }
 
     .info>h3:first-child {
@@ -300,8 +300,8 @@
     /* info sec */
 
     .info {
-        padding: 10px 20px;
-        gap: 5px 0px;
+        padding: 20px 20px;
+        gap: 10px 0px;
     }
 
     .info>h3:first-child {
@@ -317,8 +317,36 @@
     }
 
     .info>a>button {
-        padding: 20px 30px;
+        padding: 15px 25px;
         margin: 20px 0px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /* head section */
+
+    nav {
+        padding: 25px 20px;
+    }
+
+    /* main section */
+    /* info sec */
+
+    .info {
+        padding: 20px 20px;
+    }
+
+    .info>h3:first-child {
+        font-size: 1.1rem;
+    }
+
+    .info>h1:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .info>p:nth-child(3) {
+        font-size: 1rem;
     }
 }
