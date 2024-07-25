@@ -270,3 +270,71 @@
 
     }
 }
+
+@media screen and (max-width: 425px) {
+
+    /* head section */
+
+    nav {
+        padding: 30px 20px;
+    }
+
+    .logo {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }   
+
+    .bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+    }
+
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+
+    /* main section */
+    .home-sec {
+        padding: 120px 0px;
+        margin-top: 40px;
+    }
+
+    /* main social sec end */
+    /* info sec */
+
+    .info {
+        padding: 10px 40px;
+        gap: 5px 0px;
+    }
+
+    .info>h3:first-child {
+        font-size: 1.1rem;
+        font-weight: 1px;
+        font-weight: 400;
+    }
+
+    .info>h1:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .info>p:nth-child(3) {
+        font-size: 1.1rem;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    .info>a>button {
+        padding: 20px 30px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        font-size: 14px;
+
+    }
+}
