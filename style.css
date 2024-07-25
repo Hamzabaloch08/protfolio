@@ -48,6 +48,7 @@ nav {
     align-items: center;
 }
 
+
 .nav-menu>a {
     position: relative;
     color: rgb(170, 170, 170);
@@ -243,12 +244,12 @@ ul.my-list a:hover:after {
 /* email sec end */
 
 /* about sec start */
-.about-sec{
+.about-sec {
     padding: 100px 0px;
     text-align: center;
 }
 
-.about-sec>h1{
+.about-sec>h1 {
     font-size: 3rem;
     color: rgb(200, 200, 200);
 }
