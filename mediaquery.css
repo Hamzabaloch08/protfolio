@@ -4,7 +4,8 @@
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: aqua;
+        color: black;
         opacity: 0.8;
         width: 100%;
         text-align: center;
@@ -16,6 +17,22 @@
     .nav-menu.active {
         left: 0;
     }
+
+    .nav-menu>a {
+        color: rgb(0, 0, 0);
+        padding: 10px 0px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .nav-menu>a:hover{
+        color: black;
+    }
+
+    ul.my-list a:after {
+        display: none;
+      }
+      
 
     .nav-item {
         margin: 2.5rem 0;
