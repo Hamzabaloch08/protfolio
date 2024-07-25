@@ -3,6 +3,8 @@
     src: url(./font/PLANK___.TTF);
 }
 
+/* external font */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,15 +16,17 @@ body {
     background-color: #000000;
 }
 
+/* head section*/
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 50px;
+    padding: 25px 20px;
 }
 
 .logo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     font-family: myfont;
     color: rgb(150, 150, 150);
@@ -37,8 +41,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0 20px;
-
 }
 
 .nav-menu>a {
@@ -53,12 +55,13 @@ nav {
     transition: all 0.3s linear;
 }
 
-.nav-menu>a:hover{
+.nav-menu>a:hover {
     color: aqua;
 }
-  
-  
-  ul.my-list a:after {
+
+/* underline animation for nav links */
+
+ul.my-list a::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -67,23 +70,16 @@ nav {
     height: 2px;
     background: aqua;
     transition: all 0.7s ease-out;
-  }
-  
-  ul.my-list a:hover:after {
+}
+
+/* underline animation for nav links */
+
+ul.my-list a:hover:after {
     width: 100%;
     left: 0;
-  }
-  
+}
 
-
-
-
-
-
-
-
-
-
+/* hamburger icons */
 .hamburger {
     display: none;
 }
@@ -95,15 +91,11 @@ nav {
     margin: 5px auto;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    background-color: aqua;
 }
 
-.bar:active {
-    background-color: blue;
-}
+/* hamburger icons */
+/* head section end*/
 
-
-
-
-
-
+/* main section */
 
