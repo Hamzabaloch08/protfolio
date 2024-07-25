@@ -95,7 +95,7 @@ ul.my-list a:hover:after {
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
     background-color: aqua;
 }
 
@@ -103,6 +103,7 @@ ul.my-list a:hover:after {
 /* head section end*/
 
 /* main section start*/
+/* main social sec */
 
 .about-sec{  
     display: flex;   
@@ -113,7 +114,7 @@ ul.my-list a:hover:after {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: 65vh;
     width: 5%;
     gap: 30px 0px;
     position: fixed;
@@ -124,6 +125,8 @@ ul.my-list a:hover:after {
 .social>i{
     color: rgb(170, 170, 170);
     font-size: 1.2rem;
+    transition: all 0.5s linear;
+    cursor: pointer;
 }
 
 .social::after{
@@ -139,3 +142,8 @@ ul.my-list a:hover:after {
     bottom: 0%;
 }
 
+.social>i:hover{
+    color: aqua;
+}
+
+/* main social sec end */
