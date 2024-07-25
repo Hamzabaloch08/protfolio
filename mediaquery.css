@@ -318,19 +318,12 @@
 
     .info>a>button {
         padding: 15px 25px;
-        margin: 20px 0px;
+        margin: 10px 0px;
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 375px) {
-
-    /* head section */
-
-    nav {
-        padding: 25px 20px;
-    }
-
     /* main section */
     /* info sec */
 
@@ -339,14 +332,16 @@
     }
 
     .info>h3:first-child {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .info>h1:nth-child(2) {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .info>p:nth-child(3) {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
+
+    /* info sec end */
 }
