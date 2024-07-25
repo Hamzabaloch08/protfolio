@@ -151,44 +151,44 @@
     .home-sec {
         padding: 180px 0px;
     }
-    
+
     .social {
         display: none;
     }
-    
+
     /* main social sec end */
     /* info sec */
-    
+
     .info {
         padding: 0px 0px;
         gap: 0px 0px;
     }
-    
+
     .info>h3:first-child {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: 1px;
         font-weight: 400;
     }
-    
+
     .info>h1:nth-child(2) {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
-    
+
     .info>p:nth-child(3) {
-        font-size: 1.4rem;
-        width: 90%;
+        font-size: 1.2rem;
+        width: 70%;
         font-weight: 500;
     }
-    
+
     .info>a>button {
-        padding: 18px 60px;
+        padding: 18px 40px;
         margin-top: 30px;
         border-radius: 10px;
         font-size: 18px;
         font-weight: 400;
         transition: 0s;
     }
-    
+
     .info>a>button:hover {
         color: aqua;
         background-color: transparent;
@@ -198,11 +198,66 @@
     .info>a>button:active {
         padding: 16px 58px;
     }
-    
+
     /* info sec end */
     /* email sec */
-    
+
     .email {
         display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* main section */
+
+    .home-sec {
+        padding: 160px 0px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    /* main social sec end */
+    /* info sec */
+
+    .info {
+        padding: 0px 0px;
+        gap: 0px 0px;
+    }
+
+    .info>h3:first-child {
+        font-size: 1.1rem;
+        font-weight: 1px;
+        font-weight: 400;
+    }
+
+    .info>h1:nth-child(2) {
+        font-size: 2.8rem;
+    }
+
+    .info>p:nth-child(3) {
+        font-size: 1.2rem;
+        width: 70%;
+        font-weight: 500;
+    }
+
+    .info>a>button {
+        padding: 18px 40px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        transition: 0s;
+    }
+
+    .info>a>button:hover {
+        color: aqua;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px;
+    }
+
+    .info>a>button:active {
+        padding: 16px 58px;
     }
 }
