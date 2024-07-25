@@ -1,4 +1,6 @@
 @media only screen and (max-width: 768px) {
+
+    /* head section */
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -53,6 +55,13 @@
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* head section end  */
+    /* main section */
+
+    .social{
+        display: none;
     }
 
 }
