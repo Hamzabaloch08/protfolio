@@ -244,11 +244,11 @@ ul.my-list a:hover:after {
 
 /* about sec start */
 .about-sec {
-    padding: 100px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 
-.about-me{
+.about-me {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -270,44 +270,58 @@ ul.my-list a:hover:after {
     color: rgb(130, 130, 130);
 }
 
-.intro-skills{
-    display: flex;
-    align-items: center;
-    padding: 150px 180px;
-}
-
-.intro{
+.intro-skills {
+    display: grid;
+    grid-template-columns: 39% 40%;
+    justify-content: center;
+    padding: 60px 55px;
+    gap: 0 70px;
     text-align: start;
 }
 
-.intro>h1:first-child{
+.intro>h1:first-child {
     font-size: 1.5rem;
     text-transform: uppercase;
     color: rgb(200, 200, 200);
 }
 
-.intro>p{
+.intro>p {
     color: rgb(130, 130, 130);
     font-size: 1.1rem;
     font-weight: 500;
-    text-align: justify;
-    width: 40%;
+    text-align: justify;    
     margin-top: 20px;
 }
 
-.skills-experience>h1:first-child{
+.skills-experience>h1:first-child {
     font-size: 1.5rem;
-    text-transform: uppercase;
     text-align: start;
+    text-transform: uppercase;
     color: rgb(200, 200, 200);
+    margin-bottom: 50px;
 }
 
-.skills-experience>button:last-child{
-    padding: 10px 10px;
-    background-color: aqua;
-}
-
-.skills{
+.skills {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 16% 24% 18% 26%;
+    gap: 20px 10px;
+}
+
+.skills>button {
+    padding: 15px 0px;
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#illustrator{
+    display: flex;
+    justify-content: center;
+    padding: 18px 223px;
+    font-size: 0.9rem;
 }
