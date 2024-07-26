@@ -265,21 +265,34 @@ ul.my-list a:hover:after {
 }
 
 .about-me>p {
-    font-size: 1.4rem;
-    width: 65%;
+    font-size: 1.3rem;
+    width: 60%;
     color: rgb(130, 130, 130);
 }
 
 .intro-skills{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 0px 160px;
+    padding: 120px 0px;
+}
+
+.intro{
 }
 
 .intro>h1:first-child{
-    color: aqua;
+    font-size: ;
+    font-weight: ;
+    text-transform: uppercase;
+    color: rgb(200, 200, 200);
 }
 
-.intro>p{
-color: rgb(130, 130, 130);
+
+.skills>h1:first-child{
+    font-size: ;
+    font-weight: ;
+    text-transform: uppercase;
+    text-align: start;
+    color: rgb(200, 200, 200);
 }
