@@ -343,6 +343,7 @@
 
     .info>p:nth-child(3) {
         font-size: 1rem;
+        color: aqua;
     }
 
     /* info sec end */
