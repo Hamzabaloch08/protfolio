@@ -289,7 +289,7 @@ ul.my-list a:hover:after {
     color: rgb(130, 130, 130);
     font-size: 1.1rem;
     font-weight: 500;
-    text-align: justify;    
+    text-align: justify;
     margin-top: 20px;
 }
 
@@ -302,26 +302,23 @@ ul.my-list a:hover:after {
 }
 
 .skills {
-    display: grid;
-    grid-template-columns: 16% 24% 18% 26%;
-    gap: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+    width: 80%;
 }
 
 .skills>button {
-    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     color: aqua;
     border: 1px solid aqua;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-}
-
-#illustrator{
-    display: flex;
-    justify-content: center;
-    padding: 18px 223px;
-    font-size: 0.9rem;
+    padding: 10px 20px;
 }
