@@ -321,4 +321,11 @@ ul.my-list a:hover:after {
     text-transform: uppercase;
     text-align: center;
     padding: 16px 20px;
+    transition: all 0.19s linear;
+}
+
+.skills>button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
 }
