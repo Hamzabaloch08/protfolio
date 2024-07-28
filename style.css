@@ -245,7 +245,6 @@ ul.my-list a:hover:after {
 /* about sec start */
 .about-sec {
     padding: 50px 0px;
-    text-align: center;
 }
 
 .about-me {
@@ -257,46 +256,42 @@ ul.my-list a:hover:after {
     gap: 10px 0px;
 }
 
-.about-me>h1 {
+.about-me>h1:first-child {
     font-size: 3.2rem;
     letter-spacing: 1px;
     color: rgb(200, 200, 200);
     text-transform: uppercase;
 }
 
-.about-me>p {
-    font-size: 1.3rem;
-    width: 60%;
+.about-me>p:last-child {
+    font-size: 1.2rem;
+    width: 65%;
     color: rgb(130, 130, 130);
 }
 
-.intro-skills {
-    display: grid;
-    grid-template-columns: 39% 40%;
-    justify-content: center;
-    padding: 60px 55px;
-    gap: 0 70px;
+.intro-skills{
+    display: flex;
+    padding: 50px 200px;
+
+}
+
+.intro{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.intro>h1:first-child{
+    color: rgb(200, 200, 200);
     text-align: start;
 }
 
-.intro>h1:first-child {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: rgb(200, 200, 200);
-}
-
-.intro>p {
+.intro>p{
     color: rgb(130, 130, 130);
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-align: justify;
+    width: 90%;
     margin-top: 20px;
 }
 
-.skills-experience>h1:first-child {
-    font-size: 1.5rem;
-    text-align: start;
-    text-transform: uppercase;
+.skills-experience>h1:first-child{
     color: rgb(200, 200, 200);
     margin-bottom: 20px;
 }
@@ -305,7 +300,8 @@ ul.my-list a:hover:after {
     display: flex;
     flex-wrap: wrap;
     gap: 15px 15px;
-    width: 80%;
+    width: 400px;
+
 }
 
 .skills>button {
@@ -324,8 +320,11 @@ ul.my-list a:hover:after {
     transition: all 0.19s linear;
 }
 
-.skills>button:hover{
+.skills>button:hover {
     background-color: aqua;
     color: black;
     cursor: pointer;
 }
+ 
+
+
