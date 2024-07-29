@@ -686,6 +686,15 @@
         font-size: 13px;
 
     }
+
+        /* about sec start */
+
+        .about-me>h1:first-child {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+    
+        
 }
 
 @media screen and (max-width: 375px) {
