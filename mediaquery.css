@@ -736,7 +736,6 @@
         }
     
         .skills {
-            display: flex;
             height: 40vh;
             gap: 20px 20px;
             width: 100%;
