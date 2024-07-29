@@ -722,7 +722,6 @@
     
         .skills-experience {
             display: flex;
-            flex-direction: column;
             margin-top: 50px;
             margin-right: 0px;
         }
