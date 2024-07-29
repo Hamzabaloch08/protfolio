@@ -301,6 +301,8 @@ ul.my-list a:hover:after {
 
 /* introduction start end */
 
+/* about skills-experience */
+
 .skills-experience>h1:first-child {
     color: rgb(200, 200, 200);
     margin-bottom: 20px;
@@ -336,5 +338,7 @@ ul.my-list a:hover:after {
     color: black;
     cursor: pointer;
 }
+
+/* about skills-experience */
 
 /* about sec end */
