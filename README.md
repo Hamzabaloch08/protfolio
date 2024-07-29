@@ -4,15 +4,17 @@ This repository contains code for my personal PROTFOLIO website, showcasing my p
 
 ## Features
 
-- **Responsive Design:** Built with a mobile-first approach using media queries and flexible grids.
+- **Responsive Design:** Built with a mobile-first approach using media queries and flex-box or Grids.
   
 - **HTML5:** Structured the content of web pages using semantic HTML elements for better accessibility and SEO.
   
 - **CSS3:** Styled the layout, typography, and design elements with CSS, including animations and transitions to enhance user experience.
   
-- **JavaScript:** Implemented client-side scripting for dynamic behavior and interactivity, such as form validation, dynamic content loading, and smooth scrolling.
+- **JavaScript:** Implemented client-side scripting for dynamic behavior and interactivity, such as form validation, dynamic content loading, and smooth scrolling or scroll animation for libraries.
   
 - **FontAwesome:** Integrated FontAwesome icons for social media links and other visual elements.
+
+- **AOS-Annimate:** AOS (Animate On Scroll) is a popular library that allows you to add animations to elements as they scroll into view.AOS is a lightweight library that helps you create engaging and visually appealing scroll animations for your website.
   
 - **Git:** Managed version control and collaboration using Git, ensuring efficient development and maintenance of the project.
   
