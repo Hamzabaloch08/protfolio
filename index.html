@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mediaquery.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b63fea601a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,9 +17,11 @@
 
     <header class="header">
         <nav>
-            <a href="#" class="logo">Hamza<span>Baloch</span></a>
+            <a href="#" class="logo" data-aos="fade-right" data-aos-delay="200"
+                data-aos-duration="1800">Hamza<span>Baloch</span></a>
 
-            <ul class="my-list nav-menu">
+            <ul class="my-list nav-menu" data-aos="fade-left" data-aos-delay="200"
+            data-aos-duration="1800">
                 <a href="">
                     <li>home</li>
                 </a>
@@ -44,7 +48,7 @@
 
     <main>
         <section class="home-sec">
-            <div class="social">
+            <div class="social" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
                 <a target="_blank" href="https://www.linkedin.com/in/hamza-baloxh/"><i
                         class="fa-brands fa-linkedin-in"></i></a>
                 <a target="_blank" href="https://github.com/Hamzabaloch08"><i class="fa-brands fa-github"></i></a>
@@ -54,28 +58,30 @@
                         class="fa-solid fa-at"></i></a>
             </div>
 
-            <div class="info">
+            <div class="info" >
                 <h3>Hi, my name is</h3>
                 <h1>Hamza Baloch</h1>
                 <p>Front-End Developer with a passion for building high-quality software that solves real-world
                     problems.</p>
                 <a href=""><button>Check out my projects</button></a>
             </div>
-            <div class="email">
+            <div class="email" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
                 <h3><a target="_blank"
                         href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkVVTvVpPMqZbgLfpDRcWJHZTcmhhgPmWDJGVSkJWDdhPwtQGSNtnKkjQnjfHJCzVcTcL">hb.developer08@gmail.com</a>
                 </h3>
             </div>
         </section>
-        <section class="about-sec">
-            <div class="about-me">
+        <section class="about-sec" >
+            <div class="about-me" data-aos="fade-left" data-aos-delay="100"
+            data-aos-duration="1000">
                 <h1>About Me</h1>
                 <p>Here you will find more information about me, what I do, and my current skills mostly in terms of
                     programming and technology.
                 </p>
             </div>
             <div class="intro-skills">
-                <div class="intro">
+                <div class="intro" data-aos="fade-right" data-aos-delay="100"
+                data-aos-duration="1000">
                     <h1>introduction</h1>
                     <p>I'm 16 years old FRONT-END developer from karachi, pakistan. I recently completed a rigorous
                         FRONT-END where I honed my skills in HTML, CSS, and JAVASCRIPT. Currently, I am delving deeper
@@ -85,27 +91,30 @@
                         and frameworks. I have
                         experience in building applications using HTML, CSS, and JavaScript.</p>
                 </div>
-                <div class="skills-experience">
+                <div class="skills-experience" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
                     <h1>skills & experience</h1>
                     <div class="skills">
-                    <button >html</button>
-                    <button>bootstraps</button>
-                    <button>git</button>
-                    <button>frame work</button>
-                    <button>css</button>
-                    <button>javascript</button>
-                    <button>github</button>
-                    <button>photoshop</button>
-                    <button>illustrator </button>
+                        <button>html</button>
+                        <button>bootstraps</button>
+                        <button>git</button>
+                        <button>frame work</button>
+                        <button>css</button>
+                        <button>javascript</button>
+                        <button>github</button>
+                        <button>photoshop</button>
+                        <button>illustrator </button>
                     </div>
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </main>
     <!-- main section end -->
 
-    <script src="https://kit.fontawesome.com/b63fea601a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="app.js"></script>
 </body>
 
