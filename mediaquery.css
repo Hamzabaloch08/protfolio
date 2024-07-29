@@ -708,6 +708,12 @@
             gap: 0 20px;
         }
     
+        .intro>h1:first-child {
+            font-size: 1.4rem;
+            text-align: center;
+        }
+    
+        
 }
 
 @media screen and (max-width: 375px) {
