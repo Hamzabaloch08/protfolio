@@ -738,7 +738,6 @@
         .skills {
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
             height: 40vh;
             gap: 20px 20px;
             width: 100%;
