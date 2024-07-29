@@ -694,6 +694,12 @@
             margin-bottom: 10px;
         }
     
+        .about-me>p:last-child {
+            font-size: 1rem;
+            width: 80%;
+            margin-bottom: 40px;
+        }
+    
         
 }
 
