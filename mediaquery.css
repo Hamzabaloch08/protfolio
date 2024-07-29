@@ -723,8 +723,6 @@
         .skills-experience {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            
             margin-top: 50px;
             margin-right: 0px;
         }
