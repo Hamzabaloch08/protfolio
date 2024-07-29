@@ -24,7 +24,7 @@ publishing on the web.
 
 
 ____________________________________________________________________________
-This Planet Font is copyright © 1996 by Mads Rydahl, All Rights 
+This Planet Font is copyright ï¿½ 1996 by Mads Rydahl, All Rights 
 Reserved.  It is distributed free, provided all files in this archive 
 (including this text ducument) are included.  User groups and 
 shareware/public domain outlets may distribute the font under these 
