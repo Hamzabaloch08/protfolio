@@ -687,18 +687,18 @@
 
     }
 
-        /* about sec start */
+    /* about sec start */
 
-        .about-me>h1:first-child {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
+    .about-me>h1:first-child {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
     
-        .about-me>p:last-child {
-            font-size: 1rem;
-            width: 80%;
-            margin-bottom: 40px;
-        }
+    .about-me>p:last-child {
+        font-size: 1rem;
+        width: 80%;
+        margin-bottom: 40px;
+    }
     
         .intro-skills {
             padding: 50px 60px;
