@@ -324,7 +324,6 @@
     }
 
     .intro>p {
-        color: rgb(130, 130, 130);
         width: 95%;
         font-size: 0.7rem;
         margin-bottom: 5px;
@@ -337,7 +336,6 @@
     }
 
     .skills-experience>h1:first-child {
-        color: rgb(200, 200, 200);
         margin-bottom: 10px;
         font-size: 1.3rem;
     }
