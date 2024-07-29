@@ -700,15 +700,15 @@
         margin-bottom: 40px;
     }
     
-        .intro-skills {
-            padding: 50px 60px;
-            gap: 0 20px;
-        }
+    .intro-skills {
+        padding: 50px 60px;
+        gap: 0 20px;
+    }
     
-        .intro>h1:first-child {
-            font-size: 1.4rem;
-            text-align: center;
-        }
+    .intro>h1:first-child {
+        font-size: 1.4rem;
+        text-align: center;
+    }
     
         .intro>p {
             font-size: 0.9rem;
