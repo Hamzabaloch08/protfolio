@@ -269,6 +269,7 @@ ul.my-list a:hover:after {
     font-size: 1.2rem;
     width: 65%;
     color: rgb(130, 130, 130);
+    font-weight: 500;
 }
 
 .intro-skills{
@@ -286,6 +287,7 @@ ul.my-list a:hover:after {
 .intro>h1:first-child{
     color: rgb(200, 200, 200);
     text-align: start;
+    text-transform: uppercase;
 }
 
 .intro>p{
@@ -298,6 +300,7 @@ ul.my-list a:hover:after {
 .skills-experience>h1:first-child{
     color: rgb(200, 200, 200);
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .skills {
