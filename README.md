@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository contains code for my personal PROTFOLIO website, showcasing my projects, skills, and background. The website is built using HTML, CSS, and JavaScript to ensure responsiveness across various devices.
+This repository contains code for my personal PROTFOLIO website, showcasing my projects, skills, and background. The website is built using HTML, CSS, and JAVASCRIPT to ensure responsiveness across various devices.
 
 ## Features
 
