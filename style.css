@@ -272,6 +272,8 @@ ul.my-list a:hover:after {
     font-weight: 500;
 }
 
+/* introduction start */
+
 .intro-skills {
     display: flex;
     padding: 50px 200px;
@@ -296,6 +298,8 @@ ul.my-list a:hover:after {
     margin-top: 20px;
     text-align: justify;
 }
+
+/* introduction start end */
 
 .skills-experience>h1:first-child {
     color: rgb(200, 200, 200);
