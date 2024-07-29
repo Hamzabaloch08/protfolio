@@ -272,32 +272,32 @@ ul.my-list a:hover:after {
     font-weight: 500;
 }
 
-.intro-skills{
+.intro-skills {
     display: flex;
     padding: 50px 200px;
     gap: 0 30px;
 
 }
 
-.intro{ 
+.intro {
     display: flex;
     flex-direction: column;
 }
 
-.intro>h1:first-child{
+.intro>h1:first-child {
     color: rgb(200, 200, 200);
     text-align: start;
     text-transform: uppercase;
 }
 
-.intro>p{
+.intro>p {
     color: rgb(130, 130, 130);
     width: 80%;
     margin-top: 20px;
     text-align: justify;
 }
 
-.skills-experience>h1:first-child{
+.skills-experience>h1:first-child {
     color: rgb(200, 200, 200);
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -332,6 +332,3 @@ ul.my-list a:hover:after {
     color: black;
     cursor: pointer;
 }
- 
-
-
