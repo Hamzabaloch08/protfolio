@@ -1,172 +1,138 @@
 @media screen and (min-width: 1500px) {
+
     /* head section*/
-nav{
-    padding: 50px 50px;
-}
+    nav {
+        padding: 50px 50px;
+    }
 
-.logo {
-    font-size: 2.3rem;
-}
+    .logo {
+        font-size: 2.3rem;
+    }
 
-.nav-menu>a {
-    padding: 9px 30px;
-    font-size: 1.5rem;
-}
-/* head section end*/
+    .nav-menu>a {
+        padding: 9px 30px;
+        font-size: 1.5rem;
+    }
 
-/* main section start*/
-/* main social sec */
+    /* head section end*/
 
-.home-sec {
-    padding: 400px 0px;
-}
+    /* main section start*/
+    /* main social sec */
 
-.social {
-    gap: 60px 0px;
-    padding: 0 100px;
-}
+    .home-sec {
+        padding: 280px 0px;
+    }
 
-.social>a {
-    font-size: 2.2rem;
-}
+    .social {
+        gap: 60px 0px;
+        padding: 0 100px;
+    }
 
-.social::after {
-    height: 19vh;
-}
+    .social>a {
+        font-size: 2.2rem;
+    }
 
-/* main social sec end */
-/* info sec */
+    .social::after {
+        height: 19vh;
+    }
 
-.info {
-    gap: 5px 0px;
-    padding-top: 150px;
-}
+    /* main social sec end */
+    /* info sec */
 
-.info>h3:first-child {
-    font-size: 2.2rem;
-}
+    .info {
+        gap: 5px 0px;
+        padding-top: 100px;
+    }
 
-.info>h1:nth-child(2) {
-    font-size: 5.5rem;
-}
+    .info>h3:first-child {
+        font-size: 2.2rem;
+    }
 
-.info>p:nth-child(3) {
-    font-size: 2.3rem;
-    width: 50%;
-}
+    .info>h1:nth-child(2) {
+        font-size: 5.5rem;
+    }
 
-.info>a>button {
-    padding: 25px 80px;
-    margin-top: 40px;
-    letter-spacing: 1px;
-    font-size: 25px;
-}
+    .info>p:nth-child(3) {
+        font-size: 2.3rem;
+        width: 50%;
+    }
 
-/* info sec end */
-/* email sec */
+    .info>a>button {
+        padding: 25px 80px;
+        margin-top: 40px;
+        letter-spacing: 1px;
+        font-size: 25px;
+    }
 
-.email {
-    height: 72vh;
-    padding: 0 100px;
-}
+    /* info sec end */
+    /* email sec */
 
-.email>h3>a {
-    font-size: 1.9rem;
-}
+    .email {
+        height: 72vh;
+        padding: 0 100px;
+    }
 
-.email::after {
-    height: 19vh;
-}
+    .email>h3>a {
+        font-size: 1.9rem;
+    }
 
-/* email sec end */
+    .email::after {
+        height: 19vh;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* email sec end */
 
     /* about sec start */
-.about-me>h1:first-child {
-    font-size: 3.8rem;
+    .about-me{
+        gap: 20px 0px;
+    }
+
+    .about-me>h1:first-child {
+        font-size: 4rem;
+    }
+
+    .about-me>p:last-child {
+        font-size: 2.1rem;
+        width: 60%;
+    }
+
+    .intro-skills {
+        padding: 120px 400px;
+        gap: 0 0px;
+    }
+
+    .intro>h1:first-child {
+        font-size: 3.4rem;
+    }
+
+    .intro>p {
+        width: 85%;
+        margin-top: 30px;
+        font-size: 1.7rem;
+    }
+
+    .skills-experience>h1:first-child {
+        margin-bottom: 30px;
+        font-size: 3.4rem;
+        width: 500px;
+        
+    }
+
+    .skills {
+        gap: 25px;
+        width: 650px;
+        padding: 10px ;
+    }
+
+    .skills>button {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding: 22px 35px;
+    }
 }
 
-.about-me>p:last-child {
-    font-size: 1.5rem;
-    width: 40%;
-}
+@media screen and (min-width: 2000px) {
 
-.intro-skills{
-    display: flex;
-    padding: 50px 400px;
-
-}
-
-.intro{ 
-    display: flex;
-    flex-direction: column;
-}
-
-.intro>h1:first-child{
-    font-size: 3.6rem;
-}
-
-.intro>p{
-    color: rgb(130, 130, 130);
-    width: 60%;
-    margin-top: 20px;
-}
-
-.skills-experience>h1:first-child{
-    color: rgb(200, 200, 200);
-    margin-bottom: 20px;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px 15px;
-    width: 400px;
-
-}
-
-.skills>button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    color: aqua;
-    border: 1px solid aqua;
-    border-radius: 5px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 16px 20px;
-    transition: all 0.19s linear;
-}
-
-.skills>button:hover {
-    background-color: aqua;
-    color: black;
-    cursor: pointer;
-}
 }
 
 @media screen and (max-width: 1024px) {
@@ -257,7 +223,7 @@ nav{
 
     /* head section */
 
-    nav{
+    nav {
         display: flex;
         align-items: center;
     }
@@ -386,7 +352,7 @@ nav{
     .logo {
         font-size: 1rem;
         letter-spacing: 1px;
-    }   
+    }
 
     .bar {
         display: block;
@@ -402,7 +368,7 @@ nav{
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
+
 
     /* main section */
     .home-sec {
@@ -454,7 +420,7 @@ nav{
         font-size: 0.9rem;
         letter-spacing: 1px;
         margin-left: 0px;
-    }   
+    }
 
     .bar {
         display: block;
