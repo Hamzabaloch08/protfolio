@@ -730,6 +730,11 @@
             margin-right: 0px;
         }
     
+        .skills-experience>h1:first-child {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+        }
+    
         
 }
 
