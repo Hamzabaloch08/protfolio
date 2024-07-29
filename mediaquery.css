@@ -710,11 +710,11 @@
         text-align: center;
     }
     
-        .intro>p {
-            font-size: 0.9rem;
-            margin-bottom: 0px;
-            line-height: 20px;
-        }
+    .intro>p {
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
     
         .skills-experience {
             margin-top: 50px;
