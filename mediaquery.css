@@ -1,6 +1,6 @@
 @media screen and (min-width: 1500px) {
 
-    /* head section*/
+    head section
     nav {
         padding: 50px 50px;
     }
@@ -786,7 +786,7 @@
         padding: 0px 20px;
     }
 
-    .info>h3:first-child {
+    .info>h3:first-child {  
         font-size: 0.9rem;
     }
 
