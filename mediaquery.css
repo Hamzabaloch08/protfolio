@@ -1,6 +1,5 @@
 @media screen and (min-width: 1500px) {
 
-    head section
     nav {
         padding: 60px 80px;
     }
@@ -121,31 +120,54 @@
 
     .skills {
         gap: 26px;
-        width: 650px;
+        width: 700px;
         padding: 10px;
     }
 
     .skills>button {
-        font-size: 20px;
+        font-size: 22px;
         letter-spacing: 1px;
-        padding: 22px 35px;
+        padding: 25px 40px;
     }
 }
 
 @media screen and (min-width: 1800px) and (max-width: 2150px) {
 
     /* main social sec end */
-    .social {
-        gap: 50px 0px;
-        padding: 0 80px;
+    nav {
+        padding: 60px 80px;
     }
 
-    .social>a {
+    .logo {
+        margin-left: 20px;
         font-size: 2rem;
     }
 
+    .nav-menu>a {
+        padding: 9px 30px;
+        font-size: 1.3rem;
+    }
+
+    /* head section end*/
+
+    /* main section start*/
+    /* main social sec */
+
+    .home-sec {
+        padding: 280px 0px;
+    }
+
+    .social {
+        gap: 40px 0px;
+        padding: 0 100px;
+    }
+
+    .social>a {
+        font-size: 1.8rem;
+    }
+
     .social::after {
-        height: 18vh;
+        height: 19vh;
     }
 
     /* main social sec end */
@@ -161,24 +183,31 @@
     }
 
     .info>h1:nth-child(2) {
-        font-size: 5.2rem;
+        font-size: 5rem;
     }
 
     .info>p:nth-child(3) {
-        font-size: 2rem;
-        width: 50%;
+        font-size: 2.2rem;
+        width: 45%;
+    }
+
+    .info>a>button {
+        padding: 25px 70px;
+        margin-top: 40px;
+        letter-spacing: 1px;
+        font-size: 22px;
     }
 
     /* info sec end */
     /* email sec */
 
     .email {
-        height: 70vh;
-        padding: 0 80px;
+        height: 75vh;
+        padding: 0 100px;
     }
 
     .email>h3>a {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .email::after {
@@ -186,41 +215,54 @@
     }
 
     /* email sec end */
+
     /* about sec start */
+    .about-me {
+        gap: 20px 0px;
+    }
+
+    .about-me>h1:first-child {
+        font-size: 3.2rem;
+    }
 
     .about-me>p:last-child {
         font-size: 2rem;
-        width: 55%;
+        width: 50%;
     }
 
     .intro-skills {
-        padding: 120px 350px;
+        padding: 120px 400px;
+        gap: 0 0px;
     }
 
     .intro>h1:first-child {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
     }
 
     .intro>p {
-        width: 90%;
-        font-size: 1.4rem;
+        width: 85%;
+        margin-top: 30px;
+        font-size: 1.5rem;
     }
 
     .skills-experience>h1:first-child {
-        font-size: 3.2rem;
+        margin-bottom: 30px;
+        font-size: 2.4rem;
+        width: 500px;
+
     }
 
     .skills {
-        gap: 20px;
-        width: 600px;
+        gap: 26px;
+        width: 700px;
         padding: 10px;
-    } 
-
-    .skills>button {
-        font-size: 18px;
-        padding: 20px 35px;
     }
 
+    .skills>button {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding: 25px 40px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
