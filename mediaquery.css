@@ -2,16 +2,17 @@
 
     head section
     nav {
-        padding: 50px 50px;
+        padding: 60px 80px;
     }
 
     .logo {
-        font-size: 2.3rem;
+        margin-left: 20px;
+        font-size: 2rem;
     }
 
     .nav-menu>a {
         padding: 9px 30px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     /* head section end*/
@@ -24,16 +25,16 @@
     }
 
     .social {
-        gap: 60px 0px;
+        gap: 50px 0px;
         padding: 0 100px;
     }
 
     .social>a {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .social::after {
-        height: 19vh;
+        height: 18vh;
     }
 
     /* main social sec end */
@@ -45,39 +46,39 @@
     }
 
     .info>h3:first-child {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .info>h1:nth-child(2) {
-        font-size: 5.5rem;
+        font-size: 5rem;
     }
 
     .info>p:nth-child(3) {
-        font-size: 2.3rem;
-        width: 50%;
+        font-size: 2.2rem;
+        width: 45%;
     }
 
     .info>a>button {
-        padding: 25px 80px;
+        padding: 25px 70px;
         margin-top: 40px;
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     /* info sec end */
     /* email sec */
 
     .email {
-        height: 72vh;
+        height: 75vh;
         padding: 0 100px;
     }
 
     .email>h3>a {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 
     .email::after {
-        height: 19vh;
+        height: 18vh;
     }
 
     /* email sec end */
@@ -88,12 +89,12 @@
     }
 
     .about-me>h1:first-child {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
 
     .about-me>p:last-child {
-        font-size: 2.1rem;
-        width: 60%;
+        font-size: 2rem;
+        width: 50%;
     }
 
     .intro-skills {
@@ -102,24 +103,24 @@
     }
 
     .intro>h1:first-child {
-        font-size: 3.4rem;
+        font-size: 2.4rem;
     }
 
     .intro>p {
         width: 85%;
         margin-top: 30px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .skills-experience>h1:first-child {
         margin-bottom: 30px;
-        font-size: 3.4rem;
+        font-size: 2.4rem;
         width: 500px;
 
     }
 
     .skills {
-        gap: 25px;
+        gap: 26px;
         width: 650px;
         padding: 10px;
     }
