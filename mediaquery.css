@@ -25,16 +25,16 @@
     }
 
     .social {
-        gap: 50px 0px;
+        gap: 40px 0px;
         padding: 0 100px;
     }
 
     .social>a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .social::after {
-        height: 18vh;
+        height: 19vh;
     }
 
     /* main social sec end */
