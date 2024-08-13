@@ -415,7 +415,7 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 4rem;
         flex-direction: column;
         background-color: aqua;
         color: black;
@@ -647,12 +647,6 @@
 
 @media screen and (max-width: 425px) {
 
-    /* head section */
-
-    nav {
-        padding: 25px 20px;
-    }
-
     .logo {
         font-size: 1rem;
         letter-spacing: 1px;
@@ -664,6 +658,10 @@
         height: 2px;
     }
 
+    .nav-menu>a {
+        padding: 10px 0px;
+        font-size: 0.9rem;
+    }
 
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(6px) rotate(45deg);
@@ -772,13 +770,6 @@
 
 @media screen and (max-width: 375px) {
 
-    /* head section */
-
-    nav {
-        padding: 20px 20px;
-    }
-
-
     .logo {
         font-size: 0.9rem;
         letter-spacing: 1px;
@@ -789,6 +780,11 @@
         display: block;
         width: 20px;
         height: 2px;
+    }
+
+    .nav-menu>a {
+        padding: 10px 0px;
+        font-size: 0.8rem;
     }
 
     /* main section */
@@ -816,6 +812,8 @@
         margin: 10px 0px;
         font-size: 12px;
     }
+
+
 
 
     /* about sec start */
@@ -858,12 +856,6 @@
 }
 
 @media screen and (max-width: 324px) {
-
-        /* head section */
-
-        nav {
-            padding: 20px 20px;
-        }
 
     /* main section */
     /* info sec */
