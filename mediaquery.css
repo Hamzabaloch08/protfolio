@@ -714,30 +714,36 @@
     /* about sec start */
 
     .about-me>h1:first-child {
-        font-size: 1.8rem;
-        margin-bottom: 10px;
+        font-size: 1.7rem;
+        margin-bottom: 2px;
     }
 
     .about-me>p:last-child {
-        font-size: 1rem;
+        font-size: 0.9rem;
         width: 80%;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .intro-skills {
-        padding: 50px 60px;
-        gap: 0 20px;
+        padding: 0px 50px;
     }
 
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    
     .intro>h1:first-child {
-        font-size: 1.4rem;
-        text-align: center;
+        font-size: 1.3rem;
+        
     }
 
     .intro>p {
-        font-size: 0.9rem;
-        margin-bottom: 0px;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
         line-height: 20px;
+        width: 100%;
+        text-align: justify;
     }
 
     .skills-experience {
@@ -746,21 +752,21 @@
     }
 
     .skills-experience>h1:first-child {
-        font-size: 1.4rem;
-        margin-bottom: 40px;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
     }
 
     .skills {
-        height: 40vh;
-        gap: 20px 20px;
+        display: grid;
+        grid-template-columns: auto auto;
         width: 100%;
-        margin-right: 0px;
-        margin-top: 0px;
+        gap: 20px 20px;
     }
 
     .skills>button {
-        padding: 18px 30px;
-        font-size: 0.75rem;
+        padding: 18px 18px;
+        font-size: 0.9rem;
+        letter-spacing: 0px;
     }
 }
 
@@ -809,6 +815,45 @@
         margin: 10px 0px;
         font-size: 12px;
     }
+
+
+    /* about sec start */
+
+    .about-me>h1:first-child {
+        font-size: 1.6rem;
+    }
+
+    .about-me>p:last-child {
+        font-size: 0.85rem;
+        width: 85%;
+    }
+
+    .intro-skills {
+        padding: 0px 40px;
+    }
+    
+    .intro>h1:first-child {
+        font-size: 1.2rem; 
+    }
+
+    .intro>p {
+        font-size: 0.75rem;
+    }
+
+    .skills-experience {
+        margin-top: 40px;
+    }
+
+    .skills-experience>h1:first-child {
+        font-size: 1.2rem;
+    }
+
+    .skills>button {
+        padding: 16px 16px;
+        font-size: 0.8rem;
+        letter-spacing: 0px;
+    }
+
 }
 
 @media screen and (max-width: 324px) {
@@ -832,4 +877,6 @@
     }
 
     /* info sec end */
+
+    
 }
