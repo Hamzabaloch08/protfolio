@@ -650,7 +650,7 @@
     /* head section */
 
     nav {
-        padding: 30px 20px;
+        padding: 25px 20px;
     }
 
     .logo {
@@ -775,8 +775,9 @@
     /* head section */
 
     nav {
-        padding: 25px 20px;
+        padding: 20px 20px;
     }
+
 
     .logo {
         font-size: 0.9rem;
@@ -857,6 +858,13 @@
 }
 
 @media screen and (max-width: 324px) {
+
+        /* head section */
+
+        nav {
+            padding: 20px 20px;
+        }
+
     /* main section */
     /* info sec */
 
@@ -879,4 +887,51 @@
     /* info sec end */
 
     
+    /* about sec start */
+
+    .about-me>h1:first-child {
+        font-size: 1.4rem;
+    }
+
+    .about-me>p:last-child {
+        font-size: 0.78rem;
+        width: 80%;
+    }
+
+    .intro-skills {
+        padding: 0px 30px;
+    }
+    
+    .intro>h1:first-child {
+        font-size: 1.1rem;
+        
+    }
+
+    .intro>p {
+        font-size: 0.7rem;
+        margin-bottom: 8px;
+        line-height: 18px;
+    }
+
+    .skills-experience {
+        margin-top: 30px;
+    }
+
+    .skills-experience>h1:first-child {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        gap: 15px 10px;
+    }
+
+    .skills>button {
+        padding: 14px 6px;
+        font-size: 0.7rem;
+        letter-spacing: 0px;
+    }
 }
