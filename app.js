@@ -8,4 +8,3 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
-
