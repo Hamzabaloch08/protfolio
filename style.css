@@ -108,6 +108,7 @@ ul.my-list a:hover:after {
 
 .home-sec {
     padding: 150px 0px;
+    position: relative;
 }
 
 .social {
