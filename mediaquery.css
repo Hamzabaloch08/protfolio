@@ -414,18 +414,21 @@
 
     .nav-menu {
         position: fixed;
-        left: -100%;
+        /* left: -100%; */
+        left: 0;
+        opacity: 0;
         top: 4rem;
         flex-direction: column;
         background-color: aqua;
         color: black;
         width: 100%;
         text-align: center;
-        transition: all 0.3s linear;
+        transition: all 0.1s linear;
     }
 
     .nav-menu.active {
         left: 0;
+        opacity: 1;
     }
 
     .nav-menu>a {
