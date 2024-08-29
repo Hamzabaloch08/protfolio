@@ -1,134 +1,329 @@
 @media screen and (min-width: 1500px) {
 
     nav {
-        padding: 60px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 20px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: #000000;
+        z-index: 1;
     }
-
+    
     .logo {
-        margin-left: 20px;
-        font-size: 2rem;
-    }
-
-    .nav-menu>a {
-        padding: 9px 30px;
         font-size: 1.3rem;
+        letter-spacing: 1px;
+        font-family: myfont;
+        color: rgb(190, 190, 190);
+        text-decoration: none;
     }
-
+    
+    .logo>span {
+        color: aqua;
+    }
+    
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-menu>a {
+        position: relative;
+        color: rgb(170, 170, 170);
+        padding: 5px 25px;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.86rem;
+        letter-spacing: 1px;
+        transition: all 0.3s linear;
+    }
+    
+    .nav-menu>a:hover {
+        color: aqua;
+    }
+    
+    /* underline animation for nav links */
+    
+    ul.my-list a::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 0px;
+        height: 2px;
+        background: aqua;
+        transition: all 0.7s ease-out;
+    }
+    
+    /* underline animation for nav links */
+    
+    ul.my-list a:hover:after {
+        width: 100%;
+        left: 0;
+    }
+    
+    /* hamburger icons */
+    .hamburger {
+        display: none;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        -webkit-transition: all 1s ease-out;
+        transition: all 0.3s ease-out;
+        background-color: aqua;
+    }
+    
+    /* hamburger icons */
     /* head section end*/
-
+    
     /* main section start*/
     /* main social sec */
-
+    
     .home-sec {
-        padding: 280px 0px;
+        padding: 150px 0px;
+        position: relative;
     }
-
+    
     .social {
-        gap: 40px 0px;
-        padding: 0 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        width: 5%;
+        gap: 30px 0px;
+        position: fixed;
+        bottom: 0;
+        padding: 0 50px;
     }
-
+    
     .social>a {
-        font-size: 1.8rem;
+        color: rgb(170, 170, 170);
+        font-size: 1.3rem;
+        transition: all 0.5s linear;
+        cursor: pointer;
     }
-
+    
+    .social>a:hover {
+        color: aqua;
+    }
+    
     .social::after {
-        height: 19vh;
+        content: '';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: aqua;
+        height: 16vh;
+        width: 1px;
+        position: fixed;
+        bottom: 0%;
     }
-
+    
+    
     /* main social sec end */
     /* info sec */
-
+    
     .info {
-        gap: 5px 0px;
-        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 0px;
+        gap: 10px 0px;
     }
-
+    
     .info>h3:first-child {
-        font-size: 2rem;
+        color: aqua;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
-
+    
     .info>h1:nth-child(2) {
-        font-size: 5rem;
+        color: rgb(200, 200, 200);
+        font-size: 3.6rem;
     }
-
+    
     .info>p:nth-child(3) {
-        font-size: 2.2rem;
-        width: 45%;
+        color: rgb(130, 130, 130);
+        font-size: 1.6rem;
+        width: 60%;
+        font-weight: 500;
     }
-
+    
     .info>a>button {
-        padding: 25px 70px;
-        margin-top: 40px;
-        letter-spacing: 1px;
-        font-size: 22px;
+        background-color: transparent;
+        color: aqua;
+        border: 1px solid rgb(2, 190, 190);
+        padding: 18px 60px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
     }
-
+    
+    .info>a>button:hover {
+        color: black;
+        background-color: aqua;
+        box-shadow: 0px 10px 30px rgb(0, 221, 221);
+    }
+    
     /* info sec end */
     /* email sec */
-
+    
     .email {
-        height: 75vh;
-        padding: 0 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 5%;
+        gap: 30px 0px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 0 50px;
     }
-
+    
     .email>h3>a {
-        font-size: 1.7rem;
+        writing-mode: vertical-lr;
+        color: rgb(170, 170, 170);
+        font-weight: 400;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.3s linear;
+        margin-left: 5px;
     }
-
+    
+    .email>h3>a:hover {
+        color: aqua;
+    }
+    
     .email::after {
-        height: 18vh;
+        content: '';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: aqua;
+        height: 16vh;
+        width: 1px;
+        position: fixed;
+        bottom: 0%;
     }
-
+    
     /* email sec end */
-
+    
     /* about sec start */
-    .about-me {
-        gap: 20px 0px;
+    .about-sec {
+        padding: 80px 0px;
+        overflow: hidden;
     }
-
+    
+    .about-me {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px 0px;
+    }
+    
     .about-me>h1:first-child {
         font-size: 3.2rem;
-    }
-
-    .about-me>p:last-child {
-        font-size: 2rem;
-        width: 50%;
-    }
-
-    .intro-skills {
-        padding: 120px 400px;
-        gap: 0 0px;
-    }
-
-    .intro>h1:first-child {
-        font-size: 2.4rem;
-    }
-
-    .intro>p {
-        width: 85%;
-        margin-top: 30px;
-        font-size: 1.5rem;
-    }
-
-    .skills-experience>h1:first-child {
-        margin-bottom: 30px;
-        font-size: 2.4rem;
-        width: 500px;
-
-    }
-
-    .skills {
-        gap: 26px;
-        width: 700px;
-        padding: 10px;
-    }
-
-    .skills>button {
-        font-size: 22px;
         letter-spacing: 1px;
-        padding: 25px 40px;
+        color: rgb(200, 200, 200);
+        text-transform: uppercase;
     }
+    
+    .about-me>p:last-child {
+        font-size: 1.2rem;
+        width: 65%;
+        color: rgb(130, 130, 130);
+        font-weight: 500;
+    }
+    
+    /* introduction start */
+    
+    .intro-skills {
+        display: flex;
+        padding: 50px 200px;
+        gap: 0 30px;
+    
+    }
+    
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intro>h1:first-child {
+        color: rgb(200, 200, 200);
+        text-align: start;
+        text-transform: uppercase;
+    }
+    
+    .intro>p {
+        color: rgb(130, 130, 130);
+        width: 80%;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+    /* introduction start end */
+    
+    /* about skills-experience */
+    
+    .skills-experience>h1:first-child {
+        color: rgb(200, 200, 200);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px 15px;
+        width: 400px;
+    }
+    
+    .skills>button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        color: aqua;
+        border: 1px solid aqua;
+        border-radius: 5px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 16px 20px;
+        transition: all 0.19s linear;
+    }
+    
+    .skills>button:hover {
+        background-color: aqua;
+        color: black;
+        cursor: pointer;
+    }
+    
+    /* about skills-experience */
+    
+    /* about sec end */
 }
 
 @media screen and (min-width: 1800px) and (max-width: 2150px) {
