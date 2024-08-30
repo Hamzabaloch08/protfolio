@@ -337,6 +337,8 @@ ul.my-list a:hover:after {
     background-color: aqua;
     color: black;
     cursor: pointer;
+    transform: translateY(4px);
+    transform: translateX(-4px);
 }
 
 /* about skills-experience */
