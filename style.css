@@ -5,15 +5,47 @@
 
 /* external font */
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #000000;
+    cursor: none;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vw;
+    z-index: 1;
+}
+
+.all_content{
+    position: absolute;
+    z-index: 0;
+}
+
+.circle-cursor {
+    width: 25px; 
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 0;
 }
 
 /* head section*/
@@ -27,7 +59,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #000000;
+    background-color: transparent;
     z-index: 1;
 }
 
@@ -37,6 +69,7 @@ nav {
     font-family: myfont;
     color: rgb(190, 190, 190);
     text-decoration: none;
+    cursor: none;
 }
 
 .logo>span {
@@ -47,6 +80,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: none;
 }
 
 .nav-menu>a {
@@ -59,6 +93,7 @@ nav {
     font-size: 0.86rem;
     letter-spacing: 1px;
     transition: all 0.3s linear;
+    cursor: none;
 }
 
 .nav-menu>a:hover {
