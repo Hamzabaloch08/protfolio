@@ -3,17 +3,31 @@
     src: url(./font/PLANK___.TTF);
 }
 
+.circle {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
 /* external font */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #000000;
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: none;
 }
 
 /* head section*/
@@ -27,8 +41,8 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #000000;
-    z-index: 1;
+    backdrop-filter: blur(2px);
+    z-index: 2;
 }
 
 .logo {
@@ -37,6 +51,7 @@ nav {
     font-family: myfont;
     color: rgb(190, 190, 190);
     text-decoration: none;
+    cursor: none;
 }
 
 .logo>span {
@@ -59,10 +74,12 @@ nav {
     font-size: 0.86rem;
     letter-spacing: 1px;
     transition: all 0.3s linear;
+    cursor: none;
+    font-weight: 700;
 }
 
 .nav-menu>a:hover {
-    color: aqua;
+    color: rgb(159, 37, 0);
 }
 
 /* underline animation for nav links */
@@ -104,52 +121,13 @@ ul.my-list a:hover:after {
 /* head section end*/
 
 /* main section start*/
-/* main social sec */
 
 .home-sec {
-    padding: 150px 0px;
+    padding: 100px 0px;
     position: relative;
+    z-index: 1;
 }
 
-.social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 70vh;
-    width: 5%;
-    gap: 30px 0px;
-    position: fixed;
-    bottom: 0;
-    padding: 0 50px;
-}
-
-.social>a {
-    color: rgb(170, 170, 170);
-    font-size: 1.3rem;
-    transition: all 0.5s linear;
-    cursor: pointer;
-}
-
-.social>a:hover {
-    color: aqua;
-}
-
-.social::after {
-    content: '';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: aqua;
-    height: 16vh;
-    width: 1px;
-    position: fixed;
-    bottom: 0%;
-}
-
-
-/* main social sec end */
 /* info sec */
 
 .info {
@@ -180,9 +158,12 @@ ul.my-list a:hover:after {
     font-weight: 500;
 }
 
-.info>a>button {
+.info>a{
+    text-decoration: none;
+}
+
+.info>a>div {
     background-color: transparent;
-    color: aqua;
     border: 1px solid rgb(2, 190, 190);
     padding: 18px 60px;
     margin-top: 30px;
@@ -190,14 +171,22 @@ ul.my-list a:hover:after {
     font-size: 18px;
     font-weight: 400;
     transition: all 0.3s ease-out;
-    cursor: pointer;
+    cursor: none;
+    color: aqua;
 }
 
-.info>a>button:hover {
-    color: black;
-    background-color: aqua;
-    box-shadow: 0px 10px 30px rgb(0, 221, 221);
+.info>a>div:hover {
+    color: rgb(112, 112, 112);
+    box-shadow: 0px 10px 30px rgb(0, 187, 187);
+    backdrop-filter: blur(2px);
 }
+
+.info>a>div>p{
+    position: relative;
+    font-weight: 500;
+}
+
+
 
 /* info sec end */
 /* email sec */
@@ -223,11 +212,11 @@ ul.my-list a:hover:after {
     text-decoration: none;
     transition: all 0.3s linear;
     margin-left: 5px;
+    cursor: none;
 }
 
 .email>h3>a:hover {
-    color: aqua;
-}
+    color: rgb(128, 128, 128);}
 
 .email::after {
     content: '';
@@ -336,7 +325,7 @@ ul.my-list a:hover:after {
 .skills>button:hover {
     background-color: aqua;
     color: black;
-    cursor: pointer;
+    cursor: none;
     transform: translateY(4px);
     transform: translateX(-4px);
 }
