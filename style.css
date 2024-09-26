@@ -3,6 +3,10 @@
   src: url(./font/PLANK___.TTF);
 }
 
+.aqua{
+  color: aqua;
+}
+
 .circle {
   height: 32px;
   width: 32px;
@@ -50,10 +54,6 @@ nav {
   color: rgb(190, 190, 190);
   text-decoration: none;
   cursor: none;
-}
-
-.logo > span {
-  color: aqua;
 }
 
 .nav-menu {
@@ -123,8 +123,6 @@ ul.my-list a:hover:after {
 
 .home-sec {
   padding: 100px 0px;
-  position: relative;
-  z-index: 1;
 }
 
 /* info sec */
@@ -138,7 +136,6 @@ ul.my-list a:hover:after {
 }
 
 .info > h3:first-child {
-  color: aqua;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -170,7 +167,6 @@ ul.my-list a:hover:after {
   font-weight: 400;
   transition: all 0.3s ease-out;
   cursor: none;
-  color: aqua;
 }
 
 .info > a > button:hover {
