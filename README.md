@@ -13,10 +13,6 @@ This repository contains code for my personal PROTFOLIO website, showcasing my p
 - **JavaScript:** Implemented client-side scripting for dynamic behavior and interactivity, such as form validation, dynamic content loading, and smooth scrolling or scroll animation for libraries.
   
 - **FontAwesome:** Integrated FontAwesome icons for social media links and other visual elements.
-  
-- **Git:** Managed version control and collaboration using Git, ensuring efficient development and maintenance of the project.
-  
-- **GitHub Pages:** Deployed the website using GitHub Pages, allowing for easy hosting and updates.
 
 ## Contributing
 
