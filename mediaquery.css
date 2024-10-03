@@ -521,6 +521,13 @@
 }
 
 @media only screen and (max-width: 840px) {
+
+
+  .circle{
+    display: none;
+  }
+
+
   /* head section */
 
   nav {
